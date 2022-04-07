@@ -30,12 +30,12 @@ const data = [
   {
     avatar: AVTR3,
     name: 'Deyanira Vargas',
-    review: 'Excelente trabajo, esta muy guapo y besa muy rico, 5 estrellas.'
+    review: 'Muy buen trabajo, es excelente en los buenos resultados.'
   },
   {
     avatar: AVTR4,
     name: 'Erick Arellano',
-    review: 'Excelente trabajo, eficaz y organizado. Realiza soluciones optimas.'
+    review: 'Eficaz y organizado y realiza e implementa soluciones optimas.'
   },
 ]
 

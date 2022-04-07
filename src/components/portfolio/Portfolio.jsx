@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/portafolio1.jpg'
+import IMG2 from '../../assets/portafolio2.jpg'
+import IMG3 from '../../assets/portafolio3.jpg'
+import IMG4 from '../../assets/portafolio4.jpg'
+import IMG5 from '../../assets/portafolio5.jpg'
+import IMG6 from '../../assets/portafolio6.jpg'
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
@@ -13,44 +13,44 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: '',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Agency Perfect',
+    github: 'https://github.com/ElRoyer/elroyer_agency.github.io.git',
+    demo: 'https://elroyer.github.io/elroyer_agency.github.io/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: '',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Interior de diseños',
+    github: 'https://github.com/ElRoyer/InteriorDesign.git',
+    demo: 'https://elroyer.github.io/InteriorDesign/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: '',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Speed Sport Cycle',
+    github: 'https://github.com/ElRoyer/Speed.git',
+    demo: 'https://elroyer.github.io/Speed/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: '',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    title: 'Gym Fitness',
+    github: 'https://github.com/ElRoyer/Gym.git',
+    demo: 'https://elroyer.github.io/Gym/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: '',
-    demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Rento Car',
+    github: 'https://github.com/ElRoyer/Car.git',
+    demo: 'https://elroyer.github.io/Car/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Charts templates & infographics in Figma',
-    github: '',
-    demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'Business Oriented',
+    github: 'https://github.com/ElRoyer/Business.git',
+    demo: 'https://elroyer.github.io/Business/'
   }
 ]
 
@@ -71,8 +71,8 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={"#"} className='btn' target='_blank'>Github</a>
-                <a href={"#"} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={github} className='btn' target='_blank'>Github</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
             </article>
             )
