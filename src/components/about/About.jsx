@@ -40,8 +40,8 @@ const About = () => {
           </div>
 
           <p>
-          Hola Mi nombre es Rodrigo y soy Ingeniero en Sistemas, a lo largo de mi carrera profesional he desarrollado muchos projectos y adquirido 
-          suficientes habilidades para poder brindarte un excelente servicio. No dudes en contactarme sí tienes un projecto en mente.   
+          Hola Mi nombre es Rodrigo y soy Ingeniero en Sistemas, a lo largo de mi carrera profesional he desarrollado muchos proyectos y adquirido 
+          suficientes habilidades para poder brindarte un excelente servicio. No dudes en contactarme sí tienes un proyecto en mente.   
           </p>
 
           <a href="#contact" className='btn btn-primary'>Hablemos</a>
