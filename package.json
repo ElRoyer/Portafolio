@@ -1,9 +1,8 @@
 {
   "name": "portafolio-react",
-  "homepage": "file:///E:/8vo_Semestre/Portafolio/portafolio2/react-portfolio-tutorial-1-main/public/index.html",
+  "homepage": "http://elroyer.github.io/Portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://elroyer.github.io/Portafolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
